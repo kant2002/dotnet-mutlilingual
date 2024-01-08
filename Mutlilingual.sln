@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Українська", "Українська", "{93CB7761-4338-43D0-BDE1-3DA8947ED860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Система.Безпека.Стверждення", "Українська\Система.Безпека.Стверждення\Система.Безпека.Стверждення.csproj", "{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97A5AD5A-01B7-441F-9D26-47AEF7FF096F}
+	EndGlobalSection
+EndGlobal

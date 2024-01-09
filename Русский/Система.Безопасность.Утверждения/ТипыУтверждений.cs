@@ -6,7 +6,7 @@ namespace Система.Безопасность.Утверждения;
 /// Определяет константы для известных типов утверждений, которые можна назначить субъекту.
 /// Этот класс нельзя наследовать.
 /// </summary>
-internal sealed class ТипыУтверждений
+public sealed class ТипыУтверждений
 {
 	/// <summary>
 	/// http://schemas.xmlsoap.org/ws/2005/05/identity/claims/actor.

@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Українська", "Українська", "{93CB7761-4338-43D0-BDE1-3DA8947ED860}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Система.Безпека.Стверждення", "Українська\Система.Безпека.Стверждення\Система.Безпека.Стверждення.csproj", "{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Система.Безпека.Стверждення", "Українська\Система.Безпека.Стверждення\Система.Безпека.Стверждення.csproj", "{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Русский", "Русский", "{388DBE0D-C0C3-4AFA-986B-3170EA158872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Система.Безопасность.Утверждения", "Русский\Система.Безопасность.Утверждения\Система.Безопасность.Утверждения.csproj", "{AB36F5E8-9F51-41E0-BD8F-1D8A86E66DE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB36F5E8-9F51-41E0-BD8F-1D8A86E66DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB36F5E8-9F51-41E0-BD8F-1D8A86E66DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB36F5E8-9F51-41E0-BD8F-1D8A86E66DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB36F5E8-9F51-41E0-BD8F-1D8A86E66DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DB17BFA5-A788-4A33-B4B1-5328D8158F4E} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
+		{AB36F5E8-9F51-41E0-BD8F-1D8A86E66DE4} = {388DBE0D-C0C3-4AFA-986B-3170EA158872}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97A5AD5A-01B7-441F-9D26-47AEF7FF096F}

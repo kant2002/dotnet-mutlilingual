@@ -74,8 +74,8 @@ public class ОсобистістьСтверждень : ClaimsIdentity
 	public ClaimsIdentity Актор { get => this.Actor; set => this.Actor = value; }
 	public string ТипСтвержденняРоль => this.NameClaimType;
 	public string ТипСтвержденняІмя => this.NameClaimType;
-	public virtual void ДодатиСтверждення(Claim claim) => this.AddClaim(claim);
-	public virtual void ДодатиСтверждення(IEnumerable<Claim> claims) => this.AddClaims(claims);
+	public virtual void ДодатиСтверждення(Claim ствердження) => this.AddClaim(ствердження);
+	public virtual void ДодатиСтверждення(IEnumerable<Claim> ствердження) => this.AddClaims(ствердження);
 	public virtual ClaimsIdentity Склонувати() => this.Clone();
 
 	public virtual IEnumerable<Claim> ЗнайтиУсі(Predicate<Claim> співставлення) => this.FindAll(співставлення);
@@ -90,7 +90,7 @@ public class ОсобистістьСтверждень : ClaimsIdentity
 
 	public virtual bool ІснуєСтверждення(string тип, string значення) => this.HasClaim(тип, значення);
 
-	public virtual void ВидалитиСтверждення(Claim claim) => this.RemoveClaim(claim);
+	public virtual void ВидалитиСтверждення(Claim ствердження) => this.RemoveClaim(ствердження);
 
-	public virtual bool СпробуватиВидалитиСтверждення(Claim claim) => this.TryRemoveClaim(claim);
+	public virtual bool СпробуватиВидалитиСтверждення(Claim ствердження) => this.TryRemoveClaim(ствердження);
 }

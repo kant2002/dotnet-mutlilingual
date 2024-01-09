@@ -13,8 +13,8 @@ public class СубєктСтверджень : ClaimsPrincipal
 	{
 	}
 
-	public СубєктСтверджень(IEnumerable<ClaimsIdentity> identities)
-		: base(identities)
+	public СубєктСтверджень(IEnumerable<ClaimsIdentity> особистісті)
+		: base(особистісті)
 	{
 	}
 
@@ -57,9 +57,9 @@ public class СубєктСтверджень : ClaimsPrincipal
 		this.AddIdentities(особистості);
 	}
 
-	public virtual void ДодатиОсобистость(ClaimsIdentity identity)
+	public virtual void ДодатиОсобистость(ClaimsIdentity особистость)
 	{
-		this.AddIdentity(identity);
+		this.AddIdentity(особистость);
 	}
 
 	public virtual ClaimsPrincipal Склонувати() => this.Clone();

@@ -6,6 +6,7 @@
     <LangVersion>10</LangVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Russian.System.Security.Claims</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\"/>

@@ -6,7 +6,7 @@ namespace Система.Безпека.Стверждення;
 /// Визначає константи для відомих типів стверждень, які можна призначити суб’єкту.
 /// Цей клас не можна успадкувати.
 /// </summary>
-public static class ТипиСтверждень
+public static class ТипиСтверджень
 {
 	/// <summary>
 	/// http://schemas.xmlsoap.org/ws/2005/05/identity/claims/actor.

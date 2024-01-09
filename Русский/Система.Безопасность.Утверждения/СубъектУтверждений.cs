@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 
@@ -14,6 +15,11 @@ public class СубъектУтверждений : ClaimsPrincipal
 	}
 
 	public СубъектУтверждений(IEnumerable<ClaimsIdentity> личности)
+		: base(личности)
+	{
+	}
+
+	public СубъектУтверждений(IEnumerable<ЛичностьУтверждений> личности)
 		: base(личности)
 	{
 	}

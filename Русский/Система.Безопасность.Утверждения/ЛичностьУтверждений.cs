@@ -21,6 +21,10 @@ public class ЛичностьУтверждений : ClaimsIdentity
 	{
 	}
 
+	public ЛичностьУтверждений(IEnumerable<Утверждение> утверждения) : base(утверждения)
+	{
+	}
+
 	public ЛичностьУтверждений(BinaryReader читатель) : base(читатель)
 	{
 	}

@@ -41,7 +41,15 @@ public class ЛичностьУтверждений : ClaimsIdentity
 	{
 	}
 
+	public ЛичностьУтверждений(IEnumerable<Утверждение> утверждения, string типАутентификации) : base(утверждения, типАутентификации)
+	{
+	}
+
 	public ЛичностьУтверждений(IIdentity личность, IEnumerable<Claim> утверждения) : base(личность, утверждения)
+	{
+	}
+
+	public ЛичностьУтверждений(IIdentity личность, IEnumerable<Утверждение> утверждения) : base(личность, утверждения)
 	{
 	}
 
@@ -53,7 +61,15 @@ public class ЛичностьУтверждений : ClaimsIdentity
 	{
 	}
 
+	public ЛичностьУтверждений(IEnumerable<Утверждение> утверждения, string типАутентификации, string типИмени, string типРоли) : base(утверждения, типАутентификации, типИмени, типРоли)
+	{
+	}
+
 	public ЛичностьУтверждений(IIdentity личность, IEnumerable<Claim> утверждения, string типАутентификации, string типИмени, string типРоли) : base(личность, утверждения, типАутентификации, типИмени, типРоли)
+	{
+	}
+
+	public ЛичностьУтверждений(IIdentity личность, IEnumerable<Утверждение> утверждения, string типАутентификации, string типИмени, string типРоли) : base(личность, утверждения, типАутентификации, типИмени, типРоли)
 	{
 	}
 
@@ -80,6 +96,7 @@ public class ЛичностьУтверждений : ClaimsIdentity
 	public string ТипУтвержденияИмя => this.NameClaimType;
 	public virtual void ДобавитьУтверждение(Claim утверждение) => this.AddClaim(утверждение);
 	public virtual void ДобавитьУтверждения(IEnumerable<Claim> утверждения) => this.AddClaims(утверждения);
+	public virtual void ДобавитьУтверждения(IEnumerable<Утверждение> утверждения) => this.AddClaims(утверждения);
 	public virtual ClaimsIdentity Склонировать() => this.Clone();
 
 	public virtual IEnumerable<Claim> НайтиВсе(Predicate<Claim> сопоставление) => this.FindAll(сопоставление);

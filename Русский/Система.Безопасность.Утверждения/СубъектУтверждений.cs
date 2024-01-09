@@ -63,6 +63,11 @@ public class СубъектУтверждений : ClaimsPrincipal
 		this.AddIdentities(личности);
 	}
 
+	public virtual void ДобавитьЛичности(IEnumerable<ЛичностьУтверждений> личности)
+	{
+		this.AddIdentities(личности);
+	}
+
 	public virtual void ДобавитьЛичность(ClaimsIdentity личность)
 	{
 		this.AddIdentity(личность);

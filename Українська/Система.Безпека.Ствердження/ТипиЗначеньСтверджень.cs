@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace Система.Безпека.Стверждення;
+namespace Система.Безпека.Вимоги;
 
 /// <summary>
 /// Визначає типи значень стверждень відповідно до URI типів, визначених W3C і OASIS.

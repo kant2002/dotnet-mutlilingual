@@ -4,31 +4,36 @@ using System.IO;
 using System.Security.Claims;
 using System.Security.Principal;
 
-namespace Система.Безпека.Ствердження;
+namespace Система.Безпека.Вимоги;
 
-public class СубєктСтверджень : ClaimsPrincipal
+public class СубєктВимог : ClaimsPrincipal
 {
-	public СубєктСтверджень()
+	public СубєктВимог()
 		: base()
 	{
 	}
 
-	public СубєктСтверджень(IEnumerable<ClaimsIdentity> особистісті)
+	public СубєктВимог(IEnumerable<ClaimsIdentity> особистісті)
 		: base(особистісті)
 	{
 	}
 
-	public СубєктСтверджень(BinaryReader читач)
+	public СубєктВимог(IEnumerable<ОсобистістьВимог> особистісті)
+		: base(особистісті)
+	{
+	}
+
+	public СубєктВимог(BinaryReader читач)
 		: base(читач)
 	{
 	}
 
-	public СубєктСтверджень(IIdentity особистість)
+	public СубєктВимог(IIdentity особистість)
 		: base(особистість)
 	{
 	}
 
-	public СубєктСтверджень(IPrincipal субєкт)
+	public СубєктВимог(IPrincipal субєкт)
 		: base(субєкт)
 	{
 	}
@@ -50,7 +55,7 @@ public class СубєктСтверджень : ClaimsPrincipal
 	public virtual IIdentity Особистість => this.Identity;
 
 	public virtual IEnumerable<ClaimsIdentity> Особистості => Identities;
-	public virtual IEnumerable<Claim> Ствердження => Claims;
+	public virtual IEnumerable<Claim> Вимоги => Claims;
 
 	public virtual void ДодатиОсобистості(IEnumerable<ClaimsIdentity> особистості)
 	{
@@ -72,9 +77,9 @@ public class СубєктСтверджень : ClaimsPrincipal
 
 	public virtual Claim ЗнайтиПерше(Predicate<Claim> співставлення) => this.FindFirst(співставлення);
 
-	public virtual bool ІснуєСтверждення(Predicate<Claim> співставлення) => this.HasClaim(співставлення);
+	public virtual bool ІснуєВимога(Predicate<Claim> співставлення) => this.HasClaim(співставлення);
 
-	public virtual bool ІснуєСтверждення(string тип, string значення) => this.HasClaim(тип, значення);
+	public virtual bool ІснуєВимога(string тип, string значення) => this.HasClaim(тип, значення);
 
 	public virtual bool УРолі(string роль) => this.IsInRole(роль);
 }

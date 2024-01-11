@@ -2,51 +2,51 @@
 using System.IO;
 using System.Security.Claims;
 
-namespace Система.Безпека.Стверждення;
+namespace Система.Безпека.Вимоги;
 
-public class Ствердження : Claim
+public class Вимога : Claim
 {
-	public Ствердження(BinaryReader читач)
+	public Вимога(BinaryReader читач)
 		: base(читач)
 	{
 	}
 
-	public Ствердження(BinaryReader читач, ClaimsIdentity субєкт)
+	public Вимога(BinaryReader читач, ClaimsIdentity субєкт)
 		: base(читач, субєкт)
 	{
 	}
 
-	public Ствердження(string тип, string значення)
+	public Вимога(string тип, string значення)
 		: base(тип, значення)
 	{
 	}
 
-	public Ствердження(string тип, string значення, string типЗначення)
+	public Вимога(string тип, string значення, string типЗначення)
 		: base(тип, значення, типЗначення)
 	{
 	}
 
-	public Ствердження(string тип, string значення, string типЗначення, string випускаючаСторона)
+	public Вимога(string тип, string значення, string типЗначення, string випускаючаСторона)
 		: base(тип, значення, типЗначення, випускаючаСторона)
 	{
 	}
 
-	public Ствердження(string тип, string значення, string типЗначення, string випускаючаСторона, string орігінальнаВипускаючаСторона)
+	public Вимога(string тип, string значення, string типЗначення, string випускаючаСторона, string орігінальнаВипускаючаСторона)
 		: base(тип, значення, типЗначення, випускаючаСторона, орігінальнаВипускаючаСторона)
 	{
 	}
 
-	public Ствердження(string тип, string значення, string типЗначення, string випускаючаСторона, string орігінальнаВипускаючаСторона, ClaimsIdentity субєкт)
+	public Вимога(string тип, string значення, string типЗначення, string випускаючаСторона, string орігінальнаВипускаючаСторона, ClaimsIdentity субєкт)
 		: base(тип, значення, типЗначення, випускаючаСторона, орігінальнаВипускаючаСторона, субєкт)
 	{
 	}
 
-	protected Ствердження(Claim інший)
+	protected Вимога(Claim інший)
 		: base(інший)
 	{
 	}
 
-	protected Ствердження(Claim інший, ClaimsIdentity субєкт)
+	protected Вимога(Claim інший, ClaimsIdentity субєкт)
 		: base(інший, субєкт)
 	{
 	}

@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
+
+namespace Система.ВВ;
+
+public static class Файл
+{
+	public static void ДобавитьВсеЛинии(string шлях, IEnumerable<string> содержимое) => File.AppendAllLines(шлях, содержимое);
+	public static void ДобавитьВсеЛинии(string шлях, IEnumerable<string> содержимое, Encoding кодування) => File.AppendAllLines(шлях, содержимое, кодування);
+	public static void ДобавитьУвесьТекст(string шлях, string содержимое) => File.AppendAllText(шлях, содержимое);
+	public static void ДобавитьУвесьТекст(string шлях, string содержимое, Encoding кодування) => File.AppendAllText(шлях, содержимое, кодування);
+	public static StreamWriter ДобавитьТекст(string шлях) => File.AppendText(шлях);
+	public static void Скопіювати(string імяВихідногоФайла, string імяЦільовФайла) => File.Copy(імяВихідногоФайла, імяЦільовФайла);
+	public static void Скопіювати(string імяВихідногоФайла, string імяЦільовФайла, bool перезаписать) => File.Copy(імяВихідногоФайла, імяЦільовФайла, перезаписать);
+	public static FileStream Створити(string шлях) => File.Create(шлях);
+	public static FileStream Створити(string шлях, int розмірБуфера) => File.Create(шлях, розмірБуфера);
+	public static FileStream Створити(string шлях, int розмірБуфера, FileOptions опции) => File.Create(шлях, розмірБуфера, опции);
+	public static StreamWriter СтворитиТекст(string шлях) => File.CreateText(шлях);
+	public static void Розшифрувати(string шлях) => File.Decrypt(шлях);
+	public static void Видалити(string шлях) => File.Delete(шлях);
+	public static void Зашифрувати(string шлях) => File.Encrypt(шлях);
+	public static bool Існує(string шлях) => File.Exists(шлях);
+	public static FileAttributes ОтриматиАтрибути(string шлях) => File.GetAttributes(шлях);
+	public static DateTime ОтриматиЧасСтворення(string шлях) => File.GetCreationTime(шлях);
+	public static DateTime ОтриматиЧасСтворенняUtc(string шлях) => File.GetCreationTimeUtc(шлях);
+	public static DateTime ОтриматиЧасОстанньогоДоступу(string шлях) => File.GetLastAccessTime(шлях);
+	public static DateTime ОтриматиЧасОстанньогоДоступуUtc(string шлях) => File.GetLastAccessTimeUtc(шлях);
+	public static DateTime ОтриматиЧасОстанньогоЗапису(string шлях) => File.GetLastWriteTime(шлях);
+	public static DateTime ОтриматиЧасОстанньогоЗаписуUtc(string шлях) => File.GetLastWriteTimeUtc(шлях);
+	public static void Перемістити(string імяВихідногоФайла, string імяЦільовФайла) => File.Move(імяВихідногоФайла, імяЦільовФайла);
+	public static FileStream Відкрити(string шлях, FileMode режим, FileAccess доступ) => File.Open(шлях, режим, доступ);
+	public static FileStream Відкрити(string шлях, FileMode режим, FileAccess доступ, FileShare share) => File.Open(шлях, режим, доступ, share);
+	public static FileStream Відкрити(string шлях, FileMode режим) => File.Open(шлях, режим);
+	public static FileStream ВідкритиЧитання(string шлях) => File.OpenRead(шлях);
+	public static StreamReader ВідкритиТекст(string шлях) => File.OpenText(шлях);
+	public static FileStream ВідкритиЗапис(string шлях) => File.OpenWrite(шлях);
+	public static byte[] ПрочитатиУсіБайти(string шлях) => File.ReadAllBytes(шлях);
+	public static string[] ПрочитатиУсіЛінії(string шлях) => File.ReadAllLines(шлях);
+	public static string[] ПрочитатиУсіЛінії(string шлях, Encoding кодування) => File.ReadAllLines(шлях, кодування);
+	public static string ПрочитатиУсіТекст(string шлях) => File.ReadAllText(шлях);
+	public static string ПрочитатиУсіТекст(string шлях, Encoding кодування) => File.ReadAllText(шлях, кодування);
+	public static IEnumerable<string> ПрочитатиЛінії(string шлях) => File.ReadLines(шлях);
+	public static IEnumerable<string> ПрочитатиЛінії(string шлях, Encoding кодування) => File.ReadLines(шлях, кодування);
+	public static void Замінити(string імяВихідногоФайла, string імяЦільовогоФайла, string імяРезервноїКопіїЦільовогоФайла, bool ігноруватиПомилкиМетаданих) => File.Replace(імяВихідногоФайла, імяЦільовогоФайла, імяРезервноїКопіїЦільовогоФайла, ігноруватиПомилкиМетаданих);
+	public static void Замінити(string імяВихідногоФайла, string імяЦільовогоФайла, string імяРезервноїКопіїЦільовогоФайла) => File.Replace(імяВихідногоФайла, імяЦільовогоФайла, імяРезервноїКопіїЦільовогоФайла);
+	public static void ВстановитиАтрібути(string шлях, FileAttributes атрібутиФайла) => File.SetAttributes(шлях, атрібутиФайла);
+	public static void ВстановитиЧасСтворення(string шлях, DateTime часСтворення) => File.SetCreationTime(шлях, часСтворення);
+	public static void ВстановитиЧасСтворенняUtc(string шлях, DateTime часСтворенняUtc) => File.SetCreationTimeUtc(шлях, часСтворенняUtc);
+	public static void ВстановитиЧасОстанньогоДоступу(string шлях, DateTime часОстанньогоДоступа) => File.SetLastAccessTime(шлях, часОстанньогоДоступа);
+	public static void ВстановитиЧасОстанньогоДоступуUtc(string шлях, DateTime часОстанньогоДоступаUtc) => File.SetLastAccessTimeUtc(шлях, часОстанньогоДоступаUtc);
+	public static void ВстановитиЧасОстанньогоЗапису(string шлях, DateTime часОстанньогоЗапису) => File.SetLastWriteTime(шлях, часОстанньогоЗапису);
+	public static void ВстановитиЧасОстанньогоЗаписуUtc(string шлях, DateTime часОстанньогоЗаписуUtc) => File.SetLastWriteTimeUtc(шлях, часОстанньогоЗаписуUtc);
+	public static void ЗаписатиУсіБайти(string шлях, byte[] байти) => File.WriteAllBytes(шлях, байти);
+	public static void ЗаписатиУсіЛінії(string шлях, IEnumerable<string> зміст) => File.WriteAllLines(шлях, зміст);
+	public static void ЗаписатиУсіЛінії(string шлях, IEnumerable<string> зміст, Encoding кодування) => File.WriteAllLines(шлях, зміст, кодування);
+	public static void ЗаписатиУсіЛінії(string шлях, string[] зміст) => File.WriteAllLines(шлях, зміст);
+	public static void ЗаписатиУсіЛінії(string шлях, string[] зміст, Encoding кодування) => File.WriteAllLines(шлях, зміст, кодування);
+	public static void ЗаписатиВесьТекст(string шлях, string зміст) => File.WriteAllText(шлях, зміст);
+	public static void ЗаписатиВесьТекст(string шлях, string зміст, Encoding кодування) => File.WriteAllText(шлях, зміст, кодування);
+}

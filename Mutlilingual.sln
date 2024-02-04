@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Русский", "Русс�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Система.Безопасность.Утверждения", "Русский\Система.Безопасность.Утверждения\Система.Безопасность.Утверждения.csproj", "{AB36F5E8-9F51-41E0-BD8F-1D8A86E66DE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Система.СредаВыполенения", "Русский\Система.СредаВыполенения\Система.СредаВыполенения.csproj", "{55E13E1F-575B-4661-A59F-D6F6096086FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Система.СредаВыполенения", "Русский\Система.СредаВыполенения\Система.СредаВыполенения.csproj", "{55E13E1F-575B-4661-A59F-D6F6096086FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Система.СередаВиконування", "Українська\Система.СередаВиконування\Система.СередаВиконування.csproj", "{35E6770D-0DEA-4F53-B70D-8F4CF2FFBF4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Система.СередаВиконування", "Українська\Система.СередаВиконування\Система.СередаВиконування.csproj", "{35E6770D-0DEA-4F53-B70D-8F4CF2FFBF4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Мікрософт.АспНетЯдро.Апка", "Українська\Мікрософт.АспНетЯдро.Апка\Мікрософт.АспНетЯдро.Апка.csproj", "{20659E02-ABC9-4A7F-9FF7-9913D1142E60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{35E6770D-0DEA-4F53-B70D-8F4CF2FFBF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35E6770D-0DEA-4F53-B70D-8F4CF2FFBF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35E6770D-0DEA-4F53-B70D-8F4CF2FFBF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20659E02-ABC9-4A7F-9FF7-9913D1142E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20659E02-ABC9-4A7F-9FF7-9913D1142E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20659E02-ABC9-4A7F-9FF7-9913D1142E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20659E02-ABC9-4A7F-9FF7-9913D1142E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{AB36F5E8-9F51-41E0-BD8F-1D8A86E66DE4} = {388DBE0D-C0C3-4AFA-986B-3170EA158872}
 		{55E13E1F-575B-4661-A59F-D6F6096086FB} = {388DBE0D-C0C3-4AFA-986B-3170EA158872}
 		{35E6770D-0DEA-4F53-B70D-8F4CF2FFBF4F} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
+		{20659E02-ABC9-4A7F-9FF7-9913D1142E60} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97A5AD5A-01B7-441F-9D26-47AEF7FF096F}

@@ -1,0 +1,7 @@
+﻿namespace Мікрософт.АспНетЯдро.Будівник;
+using Microsoft.AspNetCore.Builder;
+
+public static class РозширенняБудівникаКонвенційКінцевихТочокСервернихРазорКомпонентів
+{
+    public static RazorComponentsEndpointConventionBuilder ДодатиІнтерактивнийРежимСерверногоРендеру(this RazorComponentsEndpointConventionBuilder builder) => ServerRazorComponentsEndpointConventionBuilderExtensions.AddInteractiveServerRenderMode(builder);
+}

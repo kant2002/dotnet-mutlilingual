@@ -1,0 +1,10 @@
+<Project>
+
+  <ItemGroup Condition="'$(Language)' == 'C#' AND ('$(ImplicitUsings)' == 'true' or '$(ImplicitUsings)' == 'enable')">
+    <Using Include="Мікрософт.АспНетЯдро.Апка" />
+    <Using Include="Мікрософт.АспНетЯдро.Будівник" />
+    <Using Include="Мікрософт.Розширення.ВприскЗалежностей" />
+    <Using Include="Мікрософт.Розширення.Хостінг" />
+  </ItemGroup>
+
+</Project>

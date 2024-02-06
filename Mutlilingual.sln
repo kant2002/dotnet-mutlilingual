@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Система.Середа
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Мікрософт.АспНетЯдро.Апка", "Українська\Мікрософт.АспНетЯдро.Апка\Мікрософт.АспНетЯдро.Апка.csproj", "{20659E02-ABC9-4A7F-9FF7-9913D1142E60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Микрософт.АспНетЯдро.Приложение", "Русский\Микрософт.АспНетЯдро.Приложение\Микрософт.АспНетЯдро.Приложение.csproj", "{F7ECE3E1-B8A5-4924-A449-EE9390EE5DBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{20659E02-ABC9-4A7F-9FF7-9913D1142E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20659E02-ABC9-4A7F-9FF7-9913D1142E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20659E02-ABC9-4A7F-9FF7-9913D1142E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7ECE3E1-B8A5-4924-A449-EE9390EE5DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7ECE3E1-B8A5-4924-A449-EE9390EE5DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7ECE3E1-B8A5-4924-A449-EE9390EE5DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7ECE3E1-B8A5-4924-A449-EE9390EE5DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{55E13E1F-575B-4661-A59F-D6F6096086FB} = {388DBE0D-C0C3-4AFA-986B-3170EA158872}
 		{35E6770D-0DEA-4F53-B70D-8F4CF2FFBF4F} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{20659E02-ABC9-4A7F-9FF7-9913D1142E60} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
+		{F7ECE3E1-B8A5-4924-A449-EE9390EE5DBA} = {388DBE0D-C0C3-4AFA-986B-3170EA158872}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97A5AD5A-01B7-441F-9D26-47AEF7FF096F}

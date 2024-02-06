@@ -18,7 +18,7 @@ public sealed class ПостроительВебПриложения : IHostAppl
     }
 
     public IWebHostEnvironment Окружение => webApplicationBuilder.Environment;
-    public IServiceCollection Сервиси => webApplicationBuilder.Services;
+    public IServiceCollection Сервисы => webApplicationBuilder.Services;
     public ConfigurationManager Конфигурация => webApplicationBuilder.Configuration;
     public ILoggingBuilder Протоколировщик => webApplicationBuilder.Logging;
     public IMetricsBuilder Метрики => webApplicationBuilder.Metrics;

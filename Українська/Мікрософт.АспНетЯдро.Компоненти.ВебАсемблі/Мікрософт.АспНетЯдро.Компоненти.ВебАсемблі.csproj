@@ -8,11 +8,11 @@
     <LangVersion>10</LangVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageId>Ukrainian.Microsoft.AspNetCore.App</PackageId>
+    <PackageId>Ukrainian.Microsoft.AspNetCore.Components.WebAssembly</PackageId>
     <Description>Переклад `Microsoft.AspNetCore.Components.WebAssembly` на українську.</Description>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="README.md" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>

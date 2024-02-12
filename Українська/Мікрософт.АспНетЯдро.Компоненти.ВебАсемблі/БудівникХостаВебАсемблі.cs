@@ -22,10 +22,10 @@ public sealed class БудівникХостаВебАсемблі
 
     public ILoggingBuilder Протоколювання => webAssemblyHostBuilder.Logging;
 
-    public static БудівникХостаВебАсемблі CreateDefault(string[]? args = null) => new (WebAssemblyHostBuilder.CreateDefault(args));
+    public static БудівникХостаВебАсемблі СтворитиЗаЗамовчанням(string[]? арги = null) => new (WebAssemblyHostBuilder.CreateDefault(арги));
 
-    public void ConfigureContainer<TBuilder>(IServiceProviderFactory<TBuilder> factory, Action<TBuilder>? configure = null)
-        where TBuilder: notnull
-        => webAssemblyHostBuilder.ConfigureContainer(factory, configure);
-    public ХостВебАсемблі Build() => new (webAssemblyHostBuilder.Build());
+    public void НалаштуватиКонтейнер<ТБудівник>(IServiceProviderFactory<ТБудівник> фабрика, Action<ТБудівник>? конфігурувати = null)
+        where ТБудівник: notnull
+        => webAssemblyHostBuilder.ConfigureContainer(фабрика, конфігурувати);
+    public ХостВебАсемблі Побудувати() => new (webAssemblyHostBuilder.Build());
 }

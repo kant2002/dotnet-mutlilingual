@@ -4,21 +4,19 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <VersionPrefix>0.0.3</VersionPrefix>
+    <VersionPrefix>0.0.1</VersionPrefix>
     <LangVersion>10</LangVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageId>Ukrainian.Microsoft.AspNetCore.App</PackageId>
-    <Description>Переклад `Microsoft.AspNetCore.App` на українську.</Description>
+    <PackageId>Ukrainian.Microsoft.AspNetCore.Components.WebAssembly.Server</PackageId>
+    <Description>Переклад `Microsoft.AspNetCore.Components.WebAssembly.Server` на українську.</Description>
   </PropertyGroup>
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\"/>
-    <None Include="Ukrainian.Microsoft.AspNetCore.App.props"
-          Pack="true"
-          PackagePath="build\" />
   </ItemGroup>
+
   <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>

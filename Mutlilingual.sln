@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Мікрософт.АспН
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Мікрософт.АспНетЯдро.HttpПротоколювання", "Українська\Мікрософт.АспНетЯдро.HttpПротоколювання\Мікрософт.АспНетЯдро.HttpПротоколювання.csproj", "{DDD13DCD-8447-4300-984C-7FFA32721064}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Мікрософт.АспНетЯдро.Маршрутизація", "Українська\Мікрософт.АспНетЯдро.Маршрутизація\Мікрософт.АспНетЯдро.Маршрутизація.csproj", "{FC39136C-F479-48BC-B060-ED0DDA093127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{DDD13DCD-8447-4300-984C-7FFA32721064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDD13DCD-8447-4300-984C-7FFA32721064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDD13DCD-8447-4300-984C-7FFA32721064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC39136C-F479-48BC-B060-ED0DDA093127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC39136C-F479-48BC-B060-ED0DDA093127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC39136C-F479-48BC-B060-ED0DDA093127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC39136C-F479-48BC-B060-ED0DDA093127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{5B59811D-C465-429C-A7E3-895C37133814} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{3ED1BDF4-A21E-4DE0-B795-673FEDC91B59} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{DDD13DCD-8447-4300-984C-7FFA32721064} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
+		{FC39136C-F479-48BC-B060-ED0DDA093127} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97A5AD5A-01B7-441F-9D26-47AEF7FF096F}

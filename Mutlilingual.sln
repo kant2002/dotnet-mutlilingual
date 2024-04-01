@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Мікрософт.АспН
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Микрософт.АспНетЯдро.Приложение", "Русский\Микрософт.АспНетЯдро.Приложение\Микрософт.АспНетЯдро.Приложение.csproj", "{F7ECE3E1-B8A5-4924-A449-EE9390EE5DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі", "Українська\Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі\Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.csproj", "{EDE0D61B-0794-482D-80DA-57BA4E97D467}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі", "Українська\Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі\Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.csproj", "{EDE0D61B-0794-482D-80DA-57BA4E97D467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Мікрософт.АспНетЯдро.Компоненти.Веб", "Українська\Мікрософт.АспНетЯдро.Компоненти.Веб\Мікрософт.АспНетЯдро.Компоненти.Веб.csproj", "{5B59811D-C465-429C-A7E3-895C37133814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Мікрософт.АспНетЯдро.Компоненти.Веб", "Українська\Мікрософт.АспНетЯдро.Компоненти.Веб\Мікрософт.АспНетЯдро.Компоненти.Веб.csproj", "{5B59811D-C465-429C-A7E3-895C37133814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.Сервер", "Українська\Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.Сервер\Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.Сервер.csproj", "{3ED1BDF4-A21E-4DE0-B795-673FEDC91B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.Сервер", "Українська\Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.Сервер\Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.Сервер.csproj", "{3ED1BDF4-A21E-4DE0-B795-673FEDC91B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Мікрософт.АспНетЯдро.HttpПротоколювання", "Українська\Мікрософт.АспНетЯдро.HttpПротоколювання\Мікрософт.АспНетЯдро.HttpПротоколювання.csproj", "{DDD13DCD-8447-4300-984C-7FFA32721064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{3ED1BDF4-A21E-4DE0-B795-673FEDC91B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ED1BDF4-A21E-4DE0-B795-673FEDC91B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ED1BDF4-A21E-4DE0-B795-673FEDC91B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD13DCD-8447-4300-984C-7FFA32721064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD13DCD-8447-4300-984C-7FFA32721064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD13DCD-8447-4300-984C-7FFA32721064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD13DCD-8447-4300-984C-7FFA32721064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{EDE0D61B-0794-482D-80DA-57BA4E97D467} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{5B59811D-C465-429C-A7E3-895C37133814} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{3ED1BDF4-A21E-4DE0-B795-673FEDC91B59} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
+		{DDD13DCD-8447-4300-984C-7FFA32721064} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97A5AD5A-01B7-441F-9D26-47AEF7FF096F}

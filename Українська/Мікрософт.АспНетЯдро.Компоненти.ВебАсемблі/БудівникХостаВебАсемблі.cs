@@ -1,7 +1,10 @@
 ﻿namespace Мікрософт.АспНетЯдро.Компоненти.ВебАсемблі.Хостінг;
+
+using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System.Diagnostics.CodeAnalysis;
 
 public sealed class БудівникХостаВебАсемблі
 {
@@ -22,6 +25,7 @@ public sealed class БудівникХостаВебАсемблі
 
     public ILoggingBuilder Протоколювання => webAssemblyHostBuilder.Logging;
 
+    [DynamicDependency(DynamicallyAccessedMemberTypes.All, typeof(HeadOutlet))]
     public static БудівникХостаВебАсемблі СтворитиЗаЗамовчанням(string[]? арги = null) => new (WebAssemblyHostBuilder.CreateDefault(арги));
 
     public void НалаштуватиКонтейнер<ТБудівник>(IServiceProviderFactory<ТБудівник> фабрика, Action<ТБудівник>? конфігурувати = null)

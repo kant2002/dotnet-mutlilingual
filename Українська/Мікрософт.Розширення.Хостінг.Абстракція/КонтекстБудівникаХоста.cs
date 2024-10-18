@@ -16,6 +16,8 @@ public class КонтекстБудівникаХоста : HostBuilderContext
     {
     }
 
+    public КонтекстБудівникаХоста(HostBuilderContext hostBuilderContext) : base(hostBuilderContext.Properties) { }
+
     /// <summary>
     /// The <see cref="ІОточенняХоста" /> initialized by the <see cref="IHost" />.
     /// </summary>

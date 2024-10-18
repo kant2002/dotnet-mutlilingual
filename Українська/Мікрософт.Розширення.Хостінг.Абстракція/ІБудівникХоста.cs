@@ -4,7 +4,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace Мікрософт.Розширення.Хостінг;
 
-public interface ІБудівникХоста
+public interface ІБудівникХоста : IHostBuilder
 {
     /// <summary>
     /// A central location for sharing state between components during the host building process.

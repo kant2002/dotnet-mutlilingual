@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Мікрософт.Розш
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Мікрософт.Розширення.Хостінг.Абстракція", "Українська\Мікрософт.Розширення.Хостінг.Абстракція\Мікрософт.Розширення.Хостінг.Абстракція.csproj", "{3DA7B9D1-5AD1-476B-B11C-4DDCA6E25ADA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Система.КомпонентнаМодель.Аннотації", "Українська\Система.КомпонентнаМодель.Аннотації\Система.КомпонентнаМодель.Аннотації.csproj", "{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{3DA7B9D1-5AD1-476B-B11C-4DDCA6E25ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA7B9D1-5AD1-476B-B11C-4DDCA6E25ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DA7B9D1-5AD1-476B-B11C-4DDCA6E25ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{FC39136C-F479-48BC-B060-ED0DDA093127} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{A5A7C08B-4F6E-4F97-9C66-90A541A63BA5} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{3DA7B9D1-5AD1-476B-B11C-4DDCA6E25ADA} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
+		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97A5AD5A-01B7-441F-9D26-47AEF7FF096F}

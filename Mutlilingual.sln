@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Мікрософт.Розш
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Система.КомпонентнаМодель.Аннотації", "Українська\Система.КомпонентнаМодель.Аннотації\Система.КомпонентнаМодель.Аннотації.csproj", "{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Система.Лінкью", "Українська\Система.Лінкью\Система.Лінкью.csproj", "{C2A9C4BE-C7C2-4CB1-BCDA-81D2E6EAC964}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A9C4BE-C7C2-4CB1-BCDA-81D2E6EAC964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A9C4BE-C7C2-4CB1-BCDA-81D2E6EAC964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A9C4BE-C7C2-4CB1-BCDA-81D2E6EAC964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A9C4BE-C7C2-4CB1-BCDA-81D2E6EAC964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{A5A7C08B-4F6E-4F97-9C66-90A541A63BA5} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{3DA7B9D1-5AD1-476B-B11C-4DDCA6E25ADA} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 		{9A972985-2B7F-49F4-B0AF-FFCAC55711BC} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
+		{C2A9C4BE-C7C2-4CB1-BCDA-81D2E6EAC964} = {93CB7761-4338-43D0-BDE1-3DA8947ED860}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97A5AD5A-01B7-441F-9D26-47AEF7FF096F}
